@@ -81,6 +81,8 @@ Tasks performed:
   - Optimal center (geographic coordinates)
   - Radius (km)
 
+![Antenna Coverage Example](report/Figure_1.png)
+
 ---
 
 ## Technical Stack
@@ -107,3 +109,7 @@ report/     → Technical documentation
 ```bash
 pytest
 ```
+
+## Benchmark Summary
+
+Empirical comparison between the randomized Welzl algorithm and the deterministic hull-based approach shows near-linear behavior for Welzl on large datasets (n ≥ 1000), with significant speedup over exhaustive methods.
